@@ -733,14 +733,12 @@ dependencies = [
 [[package]]
 name = "rustfm-scrobble-proxy"
 version = "2.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe604e5881fb980b570695795440cdba1abdbe13d1cc4858923ce11b4fc912be"
+source = "git+https://github.com/InputUsername/rustfm-scrobble-proxy.git?branch=remove-wrapped-vec#61a0ea52afb2d17037c2bd779c8d76b40cb4b535"
 dependencies = [
  "attohttpc 0.25.0",
  "md5",
  "serde",
  "serde_json",
- "wrapped-vec",
 ]
 
 [[package]]
@@ -1213,17 +1211,6 @@ name = "wit-bindgen"
 version = "0.46.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f17a85883d4e6d00e8a97c586de764dabcc06133f7f1d55dce5cdc070ad7fe59"
-
-[[package]]
-name = "wrapped-vec"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b85e08702c1e919669e1e90213c9c75ea4bb689d0f3970347e2b37c04600b4e5"
-dependencies = [
- "proc-macro2",
- "quote 1.0.43",
- "syn 1.0.109",
-]
 
 [[package]]
 name = "writeable"
